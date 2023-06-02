@@ -74,6 +74,7 @@ a.email:before {
   content: "\f199";
   font-size: 2em;
 }
+
 .mobile-menu {
   display: none;
   cursor: pointer;
