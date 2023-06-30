@@ -124,21 +124,23 @@ a.email:before {
 /* projects */
 #FitMatch,
 #FitnessWebsite,
-#EFTGuessr {
+#EFTGuessr,
+#MoneyVerse {
   display: flex;
   justify-content: center;
   max-width: 75%;
 }
 .eft-img,
 .fm-img,
-.fw-img {
+.fw-img,
+.mv-img {
   height: 250px;
   width: 350px;
   object-fit: cover;
   margin: 0 1em;
 }
 #projects {
-  height: 100vh;
+  height: 150vh;
 }
 .projects-container {
   display: flex;
@@ -222,7 +224,8 @@ a.email:before {
   }
   .FitMatch,
   .FitnessWebsite,
-  .EFTGuessr {
+  .EFTGuessr,
+  .MoneyVerse {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,7 +244,7 @@ a.email:before {
   }
   .project {
     padding: 1em;
-    width: 160px;
+    width: 400px;
     color: white;
   }
   .projects-container {

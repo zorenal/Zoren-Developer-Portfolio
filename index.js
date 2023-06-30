@@ -59,6 +59,16 @@ tl.from("#FitMatch", {
       toggleActions: "play none reverse none",
     },
     x: -1500,
+  })
+  .from("#MoneyVerse", {
+    scrollTrigger: {
+      trigger: "#MoneyVerse",
+      start: "top 95%",
+      end: "center 95%",
+      scrub: 1.5,
+      toggleActions: "play none reverse none",
+    },
+    x: 1500,
   });
 gsap.to(".coa-container", {
   scrollTrigger: {
