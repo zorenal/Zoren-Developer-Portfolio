@@ -33,6 +33,7 @@
     ></script>
     <script defer src="index.js"></script>
   </head>
+
   <body>
     <section id="navbar">
       <div class="mobile-menu">
@@ -55,7 +56,7 @@
             ></a>
             <a
               class="nav github"
-              href="https://github.com/ZenithZee"
+              href="https://github.com/zorenal"
               target="_blank"
               ><i class="fa-brands fa-square-github fa-2x"></i
             ></a>
@@ -76,13 +77,12 @@
         <div class="description-container">
           <h1 class="description">Hi! My name is Zoren</h1>
           <p class="description">
-            In the realm of web development, I am a front-end developer
-            proficient in JavaScript, HTML, and CSS. Skilled in React, React
-            Native, and Bootstrap. I am constantly seeking new opportunities to
-            build my portfolio and expand my knowledge. I'm dedicated to
-            creating engaging web experiences with clean code and seamless
-            functionality. Let's collaborate and bring your ideas to life.
-            Contact me now!
+            I'm a goal-driven full-stack engineer passionate about developing
+            web applications. I find value in the journey of overcoming
+            obstacles and continuously growing from each experience. My
+            expertise covers a variety of technologies such as HTML/CSS,
+            JavaScript/TypeScript, React/Redux, Node/Express, SQL (PostgreSQL),
+            NoSQL (MongoDB/Mongoose), and REST APIs.
           </p>
           <p class="description tech-stack">My Skills:</p>
           <div class="description">
@@ -90,19 +90,36 @@
             <i class="fa-brands fa-html5 fa-2x"></i>
             <i class="fa-brands fa-css3-alt fa-2x"></i>
             <i class="fa-brands fa-react fa-2x"></i>
+            <i class="fa-brands fa-node fa-2x"></i>
+            <i class="fa-solid fa-database fa-2x"></i>
           </div>
         </div>
       </div>
     </section>
 
+
     <section id="projects">
       <ul class="projects-container">
-        <a
-          id="FitMatch"
-          class="FitMatch"
-          href="#image-carousel"
-          onclick="openPopup()"
-        >
+
+        <h1 class="description2">Current Projects</h1>
+        <a id="SeeQR" class="SeeQR" href="http://www.seeqrapp.com/">
+          <img class="fm-img" src="/img/seeqr.png" />
+          <li class="project">
+            <h1 class="project-text">SeeQR</h1>
+            <p class="project-text">
+              SeeQR is an advanced database analytics tool that allows a
+              developer to compare the efficiency of different schemas and
+              queries on a granular level and better visualize the entity
+              relationships in their databases.
+            </p>
+            <p class="project-text">Full-Stack Developer</p>
+          <p class="project-text">Built with Typescript, Node.JS, and Electron.js</p>
+          </li>
+        </a>
+
+      
+        <h1 class="description2">Past Projects</h1>
+        <a id="FitMatch" class="FitMatch" href="#image-carousel">
           <li class="project">
             <h1 class="project-text">FitMatch</h1>
             <p class="project-text">
@@ -116,39 +133,6 @@
           </li>
           <img class="fm-img" src="/img/gwenericfit.jpg" />
         </a>
-
-        <div id="image-carousel" class="modal">
-          <span class="close" onclick="closePopup()">&times;</span>
-
-          <div class="carousel" data-carousel>
-            <button class="carousel-button prev">
-              <i class="fa-solid fa-angle-left" data-carousel-button="prev"></i>
-            </button>
-            <button class="carousel-button next" data-carousel-button="next">
-              <i class="fa-solid fa-angle-right"></i>
-            </button>
-            <ul data-slides>
-              <li class="slide" data-active>
-                <img src="img/fitmatch/img1.PNG" />
-              </li>
-              <li class="slide"><img src="img/fitmatch/img2.PNG" /></li>
-              <li class="slide"><img src="img/fitmatch/img3.PNG" /></li>
-              <li class="slide"><img src="img/fitmatch/img4.PNG" /></li>
-              <li class="slide"><img src="img/fitmatch/img5.PNG" /></li>
-              <li class="slide"><img src="img/fitmatch/img6.PNG" /></li>
-              <li class="slide"><img src="img/fitmatch/img7.PNG" /></li>
-              <li class="slide"><img src="img/fitmatch/img8.PNG" /></li>
-              <li class="slide"><img src="img/fitmatch/img9.PNG" /></li>
-              <li class="slide"><img src="img/fitmatch/img10.PNG" /></li>
-              <li class="slide"><img src="img/fitmatch/img11.PNG" /></li>
-              <li class="slide"><img src="img/fitmatch/img12.PNG" /></li>
-              <li class="slide"><img src="img/fitmatch/img13.PNG" /></li>
-              <li class="slide"><img src="img/fitmatch/img14.PNG" /></li>
-              <li class="slide"><img src="img/fitmatch/img15.png" /></li>
-              <li class="slide"><img src="img/fitmatch/img16.png" /></li>
-            </ul>
-          </div>
-        </div>
 
         <a
           id="FitnessWebsite"
@@ -207,6 +191,7 @@
           </li>
         </a>
       </ul>
+
     </section>
   </body>
 </html>
