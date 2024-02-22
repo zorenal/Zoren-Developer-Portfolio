@@ -97,7 +97,7 @@ a.email:before {
 }
 .coa-container {
   margin: auto;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
   text-align: center;
   padding: 0 1em;
   background-color: rgb(0, 0, 0, 0.5);
@@ -230,7 +230,7 @@ a.email:before {
     width: 100%;
   }
 
-  .SeeQR
+  .SeeQR,
   .FitMatch,
   .FitnessWebsite,
   .EFTGuessr,
@@ -248,6 +248,7 @@ a.email:before {
   .sq-img,
   .eft-img,
   .fm-img,
+  .mv-img,
   .fw-img {
     height: 200px;
     width: 170px;
