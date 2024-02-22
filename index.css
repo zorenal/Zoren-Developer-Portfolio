@@ -132,6 +132,8 @@ a.email:before {
   justify-content: center;
   max-width: 75%;
 }
+
+.sq-img,
 .eft-img,
 .fm-img,
 .fw-img,
@@ -142,7 +144,7 @@ a.email:before {
   margin: 0 1em;
 }
 #projects {
-  height: 150vh;
+  height: 175vh;
 }
 .projects-container {
   display: flex;
@@ -242,6 +244,8 @@ a.email:before {
     margin: 0.5em 0;
     width: 75%;
   }
+  
+  .sq-img,
   .eft-img,
   .fm-img,
   .fw-img {
@@ -261,7 +265,7 @@ a.email:before {
     align-items: center;
   }
   #projects {
-    height: 130vh;
+    height: 200vh;
   }
   .project > h1 {
     font-size: 1.2rem;
