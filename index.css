@@ -270,7 +270,7 @@ a.email:before {
     align-items: center;
   }
   #projects {
-    height: 200vh;
+    height: 220vh;
   }
   .project > h1 {
     font-size: 1.2rem;
