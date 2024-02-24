@@ -160,7 +160,6 @@ a.email:before {
 .project {
   padding: 1em;
   width: 500px;
-
   color: white;
 }
 .project > * {
@@ -233,7 +232,7 @@ a.email:before {
   }
 
   .SeeQR,
-  .QuestBoard
+  .QuestBoard,
   .FitMatch,
   .FitnessWebsite,
   .EFTGuessr,
