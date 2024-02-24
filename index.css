@@ -123,6 +123,7 @@ a.email:before {
 }
 
 /* projects */
+#QuestBoard,
 #SeeQR,
 #FitMatch,
 #FitnessWebsite,
@@ -137,6 +138,7 @@ a.email:before {
 .eft-img,
 .fm-img,
 .fw-img,
+.qb-img,
 .mv-img {
   height: 250px;
   width: 350px;
@@ -144,7 +146,7 @@ a.email:before {
   margin: 0 1em;
 }
 #projects {
-  height: 175vh;
+  height: 200vh;
 }
 .projects-container {
   display: flex;
@@ -231,6 +233,7 @@ a.email:before {
   }
 
   .SeeQR,
+  .QuestBoard
   .FitMatch,
   .FitnessWebsite,
   .EFTGuessr,
@@ -246,6 +249,7 @@ a.email:before {
   }
   
   .sq-img,
+  .qb-img,
   .eft-img,
   .fm-img,
   .mv-img,

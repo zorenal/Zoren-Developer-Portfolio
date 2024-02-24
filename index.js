@@ -31,6 +31,16 @@ tl.from("#SeeQR", {
     scrub: 1.5,
     toggleActions: "play none reverse none",
   },
+  x: -10000,
+})
+.from("#QuestBoard", {
+  scrollTrigger: {
+    trigger: "#QuestBoard",
+    start: "top 95%",
+    end: "center 95%",
+    scrub: 1.5,
+    toggleActions: "play none reverse none",
+  },
   x: 1500,
 })
 tl.from("#FitMatch", {
